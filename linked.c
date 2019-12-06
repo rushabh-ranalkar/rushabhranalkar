@@ -21,7 +21,7 @@ static void reverse(struct Node** head_ref)
   
         // Move pointers one position ahead. 
         prev = next; 
-        current = next; 
+        current = prev; 
     } 
     *head_ref = prev; 
 } 
