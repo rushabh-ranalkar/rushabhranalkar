@@ -17,7 +17,7 @@ static void reverse(struct Node** head_ref)
         // Store next 
         next = current->next; 
 // Reverse current node's pointer 
-        current->next = next; 
+        current->next = prev; 
   
         // Move pointers one position ahead. 
         prev = next; 
