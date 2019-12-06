@@ -57,6 +57,7 @@ int main()
     push(&head, 85); 
   
     printf("Given linked list\n"); 
+    printList(head);
     reverse(&head); 
     printf("\nReversed Linked list \n"); 
     printList(head); 
